@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.exchange-rate-card {
+  background: linear-gradient(#dddddd, #949494);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+@media (max-width: 540px) {
+  .exchange-rate-card {
+    width: 80%;
+  }
+}
+
+.exchange-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exchange-header h1 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.update-info {
+  font-size: 10px;
+  color: #666;
+  max-width: 180px;
+}
+
+.exchange-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.currency-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.currency-item {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.currency-item .currency-name {
+  font-weight: bold;
+}
+
+.icon-bank {
+  margin-left: auto;
+}
+
+.all-courses {
+  display: block;
+  text-align: left;
+  color: #007bff;
+  font-size: 14px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.all-courses:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
